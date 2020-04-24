@@ -13,6 +13,7 @@
 		216107502452800400E3024D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2161074E2452800400E3024D /* Main.storyboard */; };
 		216107522452800700E3024D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216107512452800700E3024D /* Assets.xcassets */; };
 		216107552452800700E3024D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216107532452800700E3024D /* LaunchScreen.storyboard */; };
+		2161075D245280A300E3024D /* harrypotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2161075C245280A300E3024D /* harrypotter.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		216107512452800700E3024D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		216107542452800700E3024D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		216107562452800700E3024D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2161075C245280A300E3024D /* harrypotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = harrypotter.mp4; path = ../../../harrypotter.mp4; sourceTree = "<group>"; };
+		2161075E2452811D00E3024D /* harrypotter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = harrypotter.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +59,13 @@
 		216107472452800400E3024D /* NewsPaperAR */ = {
 			isa = PBXGroup;
 			children = (
+				2161075C245280A300E3024D /* harrypotter.mp4 */,
 				216107482452800400E3024D /* AppDelegate.swift */,
 				2161074A2452800400E3024D /* art.scnassets */,
 				2161074C2452800400E3024D /* ViewController.swift */,
 				2161074E2452800400E3024D /* Main.storyboard */,
 				216107512452800700E3024D /* Assets.xcassets */,
+				2161075E2452811D00E3024D /* harrypotter.png */,
 				216107532452800700E3024D /* LaunchScreen.storyboard */,
 				216107562452800700E3024D /* Info.plist */,
 			);
@@ -127,6 +132,7 @@
 			files = (
 				2161074B2452800400E3024D /* art.scnassets in Resources */,
 				216107552452800700E3024D /* LaunchScreen.storyboard in Resources */,
+				2161075D245280A300E3024D /* harrypotter.mp4 in Resources */,
 				216107522452800700E3024D /* Assets.xcassets in Resources */,
 				216107502452800400E3024D /* Main.storyboard in Resources */,
 			);
