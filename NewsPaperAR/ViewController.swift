@@ -61,8 +61,20 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     // check anchor type
     if let imageAnchor = anchor as? ARImageAnchor{
       
+      let videoNode = SKVideoNode(fileNamed: "harrypotter.mp4")
+      
+      videoNode.play()
+      
+      let videoScene = SKScene(size: CGSize(width: 480, height: 360))
+      
+      videoNode.position = CGPoint(x: videoScene.size.width/2, y: videoScene.size.height/2)
+      
+      videoNode.yScale = -1.0 // use scale to reverse the image
+      
+      videoScene.addChild(videoNode)
+      
       let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
-      plane.firstMaterial?.diffuse.contents = UIColor(white: 1, alpha: 0.7)
+      plane.firstMaterial?.diffuse.contents = videoScene //videoScene as material to show 2D object in 3D world
       
       
       let planeNode = SCNNode(geometry: plane)
